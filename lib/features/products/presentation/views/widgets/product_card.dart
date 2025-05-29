@@ -20,10 +20,12 @@ class ProductCard extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(
-                width: double.infinity,
-                height: 100,
-                child: Image.network(product.imageUrl),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 100,
+                  child: Image.network(product.imageUrl),
+                ),
               ),
               SizedBox(height: 10),
               Text(

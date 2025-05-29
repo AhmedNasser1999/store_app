@@ -10,10 +10,16 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Store app', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.blue[900],
+      ),
       body: BlocBuilder<ProductsCubit, ProductsState>(
         builder: (context, state) {
           if (state is ProductsLoading) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(
+              child: CircularProgressIndicator(color: Color(0xFF004081)),
+            );
           } else if (state is ProductsSuccess) {
             return ProductListScreen(products: state.products);
           }

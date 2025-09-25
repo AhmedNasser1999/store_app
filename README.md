@@ -244,8 +244,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Ahmed Nasser**
-- GitHub: [@ahmednasser](https://github.com/ahmednasser)
-- Email: your.email@example.com
+- GitHub: [@AhmedNasser1999](https://github.com/AhmedNasser1999)
+- Email: ahmed.nasser1935@gmail.com
 
 ## 🙏 Acknowledgments
 
